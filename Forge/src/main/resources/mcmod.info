@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ModularMachines",
+  "name": "Modular Machines",
+  "description": "A mod which will add all sorts of modular integration of machines as well as universities and new NPCs.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/Infamous64/ModularMachines",
+  "updateUrl": "",
+  "authors": ["InfamousChicken"],
+  "credits": "Thanks to the authors of Minecraft Forge and MCP, for making this mod possible.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
