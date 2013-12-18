@@ -22,4 +22,5 @@ bin/
 stats/
 mods/
 resourcepacks/
-
+crash-reports/
+*.log.*

@@ -52,24 +52,26 @@ public class ItemBlockRenderer implements IItemRenderer{
 
         switch (type) {
             case ENTITY: {
-                renderItemBlockMain(subId,0.5F, 0.5F, 0.5F);
+                renderItemBlockMain(subId,0.0F, 0.0F, 0.0F);
                 break;
             }
             case EQUIPPED: {
-                renderItemBlockMain(subId,1.0F, 1.0F, 1.0F);
+                renderItemBlockMain(subId,0.5F, 0.5F, 0.5F);
                 break;
             }
             case EQUIPPED_FIRST_PERSON: {
-                renderItemBlockMain(subId,1.0F, 1.0F, 1.0F);
+                renderItemBlockMain(subId,0.25F, 0.5F, 0.5F);
                 break;
             }
             case INVENTORY: {
-                renderItemBlockMain(subId,0.0F, 0.075F, 0.0F);
+            	renderItemBlockMain(subId, 0.0F,0.0F,0.0F);
                 break;
             }
             default:
                 break;
         }
+		
+		
 		
 	}
 	
@@ -79,7 +81,7 @@ public class ItemBlockRenderer implements IItemRenderer{
 		GL11.glScalef(1.0F, 1.0F, 1.0F);
 		
 		ResourceLocation textures = (new ResourceLocation(Ref.MOD_ID.toLowerCase(),BlockRef.BLOCK_TEXTURE_LOC + BlockRef.BlockMainTextures.get(subId)+".png"));
-		FMLClientHandler.instance().getClient().renderEngine.bindTexture(textures);
+		Minecraft.getMinecraft().renderEngine.bindTexture(textures);
 		
 		GL11.glTranslatef(x,y,z);
 		

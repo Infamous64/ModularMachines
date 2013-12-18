@@ -7,7 +7,6 @@ import net.minecraft.util.Icon;
 
 import com.infamous.mm.blocks.BlockMain;
 import com.infamous.mm.blocks.Blocks;
-import com.infamous.mm.core.Debug;
 import com.infamous.mm.core.lib.BlockRef;
 
 import cpw.mods.fml.relauncher.Side;
@@ -31,9 +30,10 @@ public class ItemBlockMain extends ItemBlock {
 	public String getUnlocalizedName(ItemStack itemstack){
 		return BlockRef.BlockMainUnlocalizedNames.get(itemstack.getItemDamage());	
 	}
-	@SideOnly(Side.CLIENT)
-	@Override
-	public Icon getIconFromDamage(int dmg){
-		return ((BlockMain) Blocks.BlockMain).getBlockIconFromSubId(dmg);
-	}
+
+//	@SideOnly(Side.CLIENT)
+//	@Override
+//	public Icon getIconFromDamage(int dmg){
+//		return ((BlockMain) Blocks.BlockMain).getBlockIconFromSubId(dmg);
+//	}
 }

@@ -11,13 +11,13 @@ import com.infamous.mm.render.ItemBlockRenderer;
 
 
 public class ClientProxy extends CommonProxy{
-//	private IModelCustom[] models = new IModelCustom[2]; 
+	private IModelCustom[] models = new IModelCustom[2]; 
 	@Override
 	public void initRenderers() {
-//		String resourceName = "/assets/modularmachines/models/cube.obj";
-//		models[BlockRef.subIdMap.get(BlockRef.BlockMainKeys[0])] = AdvancedModelLoader.loadModel(resourceName);
-//		models[BlockRef.subIdMap.get(BlockRef.BlockMainKeys[0])] = AdvancedModelLoader.loadModel(resourceName);
-//		MinecraftForgeClient.registerItemRenderer(BlockRef.BlockMain_ID, new ItemBlockRenderer(models));
+		String resourceName = "/assets/modularmachines/models/cube.obj";
+		models[BlockRef.subIdMap.get(BlockRef.BlockMainKeys[0])] = AdvancedModelLoader.loadModel(resourceName);
+		models[BlockRef.subIdMap.get(BlockRef.BlockMainKeys[1])] = AdvancedModelLoader.loadModel(resourceName);
+		MinecraftForgeClient.registerItemRenderer(BlockRef.BlockMain_ID, new ItemBlockRenderer(models));
 		
 	}
 	@Override

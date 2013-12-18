@@ -15,6 +15,7 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 import com.infamous.mm.core.ClassFuncMapper;
+import com.infamous.mm.core.Debug;
 import com.infamous.mm.core.ModularMachines;
 import com.infamous.mm.core.ParameterBuilder;
 import com.infamous.mm.core.lib.BlockRef;
@@ -85,6 +86,7 @@ public class BlockMain extends BlockContainer{
 	@SideOnly(Side.CLIENT)
 	@Override
 	public Icon getIcon(int id, int meta){
+		Debug.log("this should not be called unless block is placed");
 		return this.sbsicon;
 		
 	}
