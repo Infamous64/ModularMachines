@@ -15,3 +15,11 @@ bin/
 .classpath
 .settings/
 .project
+*.log
+*.lck
+*.dat
+*.old
+stats/
+mods/
+resourcepacks/
+
