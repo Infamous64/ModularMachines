@@ -82,6 +82,7 @@ public class BlockMain extends BlockContainer{
 		}
 	}
 	
+<<<<<<< HEAD
 	@SideOnly(Side.CLIENT)
 	@Override
 	public Icon getIcon(int id, int meta){
@@ -89,6 +90,8 @@ public class BlockMain extends BlockContainer{
 		
 	}
 	
+=======
+>>>>>>> cf845008803675350d582d8f1a5cc2ebb81ef138
 	
 }
 /*	@Override
