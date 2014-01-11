@@ -24,3 +24,4 @@ mods/
 resourcepacks/
 crash-reports/
 *.log.*
+*.zip
