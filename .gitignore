@@ -1,1 +1,31 @@
+<<<<<<< HEAD
 /build
+=======
+build/
+eclipse/
+git/
+gradle/
+build.gradle
+*.txt
+*.jar
+gradlew
+gradlew.bat
+screenshots/
+saves/
+config/
+bin/
+.gradle/
+.classpath
+.settings/
+.project
+*.log
+*.lck
+*.dat
+*.old
+stats/
+mods/
+resourcepacks/
+crash-reports/
+*.log.*
+*.zip
+>>>>>>> f6d39167b173d38711ea0d6ada21dd6d7aac933b
