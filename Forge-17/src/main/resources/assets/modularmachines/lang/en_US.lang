@@ -1,0 +1,28 @@
+
+#Block Localisations
+tile.StripBoardStation.name=Strip Board Station
+tile.BoardFabricator.name=Board Fabricator
+
+
+#Ore Localisations
+tile.ore.nickel.name=Nickel Ore
+tile.ore.copper.name=Copper Ore
+tile.ore.tin.name=Tin Ore
+tile.ore.lead.name=Lead Ore
+tile.ore.zinc.name=Zinc Ore
+tile.ore.bismuth.name=Bismuth Ore
+tile.ore.indium.name=Indium Ore
+tile.ore.bauxite.name=Bauxite Ore
+tile.ore.platinum.name=Platinum Ore
+tile.ore.tellurium.name=Tellurium Ore
+tile.ore.selenium.name=Selenium Ore
+tile.ore.cadmium.name=Cadmium Ore
+
+
+#Item Localisations
+item.indiumShard.name=Indium Ore Shard
+item.telluriumShard.name=Tellurium Ore Shard
+item.platinumShard.name=Platinum Ore Shard
+item.seleniumShard.name=Selenium Ore Shard
+item.cadmiumShard.name=Cadmium Ore Shard
+
